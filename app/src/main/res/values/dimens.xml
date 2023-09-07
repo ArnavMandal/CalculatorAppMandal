@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="buttonFont">32sp</dimen>
+    <dimen name="calcFont">24sp</dimen>
+    <dimen name="outputFont">48sp</dimen>
+</resources>
