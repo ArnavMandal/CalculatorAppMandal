@@ -7,29 +7,34 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/solutionTV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/solutionTV"
+        android:layout_above="@id/resultTV"
+        android:layout_marginStart="@dimen/outputMargin"
+        android:layout_marginTop="@dimen/outputMargin"
+        android:layout_marginEnd="@dimen/outputMargin"
+        android:layout_marginBottom="@dimen/outputMargin"
+
         android:text="0"
-        android:textSize="@dimen/buttonFont"
         android:textAlignment="textEnd"
         android:textColor="@color/NumberBlack"
-        android:layout_above="@id/resultTV"
-        android:layout_margin="@dimen/outputMargin"
+        android:textSize="@dimen/buttonFont" />
 
-        />
     <TextView
+        android:id="@+id/resultTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/resultTV"
+        android:layout_above="@id/buttons_layout"
+        android:layout_marginStart="@dimen/outputMargin"
+        android:layout_marginTop="@dimen/outputMargin"
+        android:layout_marginEnd="@dimen/outputMargin"
+        android:layout_marginBottom="@dimen/outputMargin"
+
         android:text="0"
-        android:textSize="@dimen/outputFont2"
         android:textAlignment="textEnd"
         android:textColor="@color/NumberBlack"
-        android:layout_above="@id/buttons_layout"
-        android:layout_margin="@dimen/outputMargin"
-
-        />
+        android:textSize="@dimen/outputFont2" />
 
     
     <LinearLayout
@@ -52,7 +57,7 @@
                 android:layout_height="72dp"
                 app:cornerRadius="24dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:textSize="@dimen/buttonFont"
+                android:textSize="32dp"
                 android:text="C"
                 android:textColor="@color/SymbolGreen"
                 android:backgroundTint="@color/AltButtonBackground"
