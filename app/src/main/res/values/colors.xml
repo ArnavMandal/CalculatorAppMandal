@@ -5,4 +5,5 @@
     <color name="NumButtonGreen">#6DB478</color>
     <color name="SymbolGreen">#BFFFC9</color>
     <color name="NumberBlack">#17181A</color>
+    <color name="AltButtonBackground">#12341A</color>
 </resources>
